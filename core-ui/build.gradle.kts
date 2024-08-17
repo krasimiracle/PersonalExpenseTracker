@@ -22,7 +22,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ai_blue.personalexpensetracker.core.ui"
+    namespace = "com.aiblue.personalexpensetracker.core.ui"
     compileSdk = 34
 
     defaultConfig {

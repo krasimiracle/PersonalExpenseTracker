@@ -22,7 +22,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ai_blue.personalexpensetracker.test.navigation"
+    namespace = "com.aiblue.personalexpensetracker.test.navigation"
     compileSdk = 34
     targetProjectPath = ":app"
 
@@ -30,7 +30,7 @@ android {
         minSdk = 21
         targetSdk = 34
 
-        testInstrumentationRunner = "com.ai_blue.personalexpensetracker.core.testing.HiltTestRunner"
+        testInstrumentationRunner = "com.aiblue.personalexpensetracker.core.testing.HiltTestRunner"
     }
 
     buildFeatures {

@@ -25,11 +25,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ai_blue.personalexpensetracker"
+    namespace = "com.aiblue.personalexpensetracker"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ai_blue.personalexpensetracker"
+        applicationId = "com.aiblue.personalexpensetracker"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

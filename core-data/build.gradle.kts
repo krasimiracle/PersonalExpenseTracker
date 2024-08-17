@@ -22,13 +22,13 @@ plugins {
 }
 
 android {
-    namespace = "com.ai_blue.personalexpensetracker.core.data"
+    namespace = "com.aiblue.personalexpensetracker.core.data"
     compileSdk = 34
 
     defaultConfig {
         minSdk = 21
 
-        testInstrumentationRunner = "com.ai_blue.personalexpensetracker.core.testing.HiltTestRunner"
+        testInstrumentationRunner = "com.aiblue.personalexpensetracker.core.testing.HiltTestRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
 

@@ -23,13 +23,13 @@ plugins {
 }
 
 android {
-    namespace = "com.ai_blue.personalexpensetracker.core.database"
+    namespace = "com.aiblue.personalexpensetracker.core.database"
     compileSdk = 34
 
     defaultConfig {
         minSdk = 21
 
-        testInstrumentationRunner = "com.ai_blue.personalexpensetracker.core.testing.HiltTestRunner"
+        testInstrumentationRunner = "com.aiblue.personalexpensetracker.core.testing.HiltTestRunner"
         consumerProguardFiles("consumer-rules.pro")
 
         // The schemas directory contains a schema file for each version of the Room database.
