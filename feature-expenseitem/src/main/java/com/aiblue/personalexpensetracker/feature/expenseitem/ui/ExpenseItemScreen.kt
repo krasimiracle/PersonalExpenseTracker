@@ -35,7 +35,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.aiblue.personalexpensetracker.core.ui.MyApplicationTheme
+import com.aiblue.personalexpensetracker.core.ui.PersonalExpenseTrackerTheme
 import com.aiblue.personalexpensetracker.feature.expenseitem.ui.ExpenseItemUiState.Success
 
 @Composable
@@ -82,7 +82,7 @@ internal fun ExpenseItemScreen(
 @Preview(showBackground = true)
 @Composable
 private fun DefaultPreview() {
-    MyApplicationTheme {
+    PersonalExpenseTrackerTheme {
         ExpenseItemScreen(listOf("Compose", "Room", "Kotlin"), onSave = {})
     }
 }
@@ -90,7 +90,7 @@ private fun DefaultPreview() {
 @Preview(showBackground = true, widthDp = 480)
 @Composable
 private fun PortraitPreview() {
-    MyApplicationTheme {
+    PersonalExpenseTrackerTheme {
         ExpenseItemScreen(listOf("Compose", "Room", "Kotlin"), onSave = {})
     }
 }

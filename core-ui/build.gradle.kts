@@ -56,6 +56,7 @@ dependencies {
 
     // Core Android dependencies
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.ui.text.google.fonts)
 
     // Compose
     implementation(libs.androidx.compose.ui)
