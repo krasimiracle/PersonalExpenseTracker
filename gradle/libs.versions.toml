@@ -15,7 +15,7 @@ hilt = "2.52"
 junit = "4.13.2"
 kotlin = "2.0.10"
 ksp = "2.0.10-1.0.24"
-uiTextGoogleFonts = "1.6.8"
+uiTextGoogleFonts = "1.7.4"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
