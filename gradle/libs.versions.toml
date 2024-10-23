@@ -14,7 +14,7 @@ coroutines = "1.8.1"
 hilt = "2.52"
 junit = "4.13.2"
 kotlin = "2.0.10"
-ksp = "2.0.10-1.0.24"
+ksp = "2.0.21-1.0.26"
 uiTextGoogleFonts = "1.6.8"
 
 [libraries]
